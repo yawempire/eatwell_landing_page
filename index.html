@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website Design</title>
+    <meta name="description" content="Your description here">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header section starts -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> EatWell </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#about">about</a>
+            <a href="#about">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="#" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">GHS30.00/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">GHS30.00/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">GHS30.00/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="total">Total: GHS90.00/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+            <p>Forgot password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Create now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>Organic</span> Products for You</h3>
+            <p>For a healthier diet, support sustainable agriculture, and reduce environmental impact.</p>
+            <a href="https://eatwell-app-emmanuel-asantes-projects-d1e20e3c.vercel.app" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/feature-img-1.png" alt="">
+                <h3>Fresh and Organic</h3>
+                <p>Enhancing overall well-being for a vibrant lifestyle.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-2.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>Convenience and potentially increasing customer satisfaction and loyalty.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-3.png" alt="">
+                <h3>Easy Payments</h3>
+                <p>Makes it more convenient for customers to afford products.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">About<span>EatWell</span></h1>
+	<div class="swiper product-slider">
+	<div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                    <pre style="text-transform: none; font-size: x-large; text-align: start;">
+EatWell emerged from the recognition that many individuals encounter challenges in efficiently 
+managing their grocery needs while balancing their busy lives.Recognizing a need for a seamless,</pre>   
+ 
+ <p style="text-transform: none;font-size: x-large; text-align: start;">user-friendly solution in the market, I was motivated to establish EatWell.
+ Our platform is crafted</p><pre style="text-transform: none;font-size: x-large; text-align: start;">to streamline the grocery shopping experience, offering a comprehensive solution for browsing
+products, managing shopping lists, scheduling deliveries, and accessing helpful cooking and meal 
+planning tips.As the founder, I am committed to simplifying grocery shopping and welcome you to 
+join us in revolutionizing how you shop for your everyday essentials.</pre>
+
+                <h3 style="padding-top: 20px; font-size: x-large;">This project is also my Portfolio Project for Holberton School, showcasing my skills in web development and design.</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+		    <h3>Connect with Me</h3>
+                <div class="share">
+		    <a href="https://twitter.com/yawempire" class="fab fa-twitter"></a>
+                    <a href="https://linkedin.com/yawempire" class="fab fa-linkedin"></a>
+                    <a href="https://github.com/yawempire" class="fab fa-github"></a>
+		   </p>
+		   <p>View the project repository on <a href="https://github.com/yawempire/alx-portfolio_project_landingpage.git" target="_blank">GitHub</a>.</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="tel:+233245246397" class="links"> <i class="fas fa-phone"></i> +233 245 246 397 </a>
+                <a href="tel:+233205445007" class="links"> <i class="fas fa-phone"></i> +233 205 445 007 </a>
+                <a href="mailto:manuelasantempire@gmail.com" class="links"> <i class="fas fa-envelope"></i> manuelasantempire@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ho - Volta region, Ghana </a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> About </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
