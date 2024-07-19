@@ -377,14 +377,14 @@ section{
 }
 
 .about .product-slider .box h3{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     color: var(--black);
 }
 
 
 .about .product-slider .box p{
-    font-size: 2.0rem;
-    color: #333333;
+    font-size: 1.5rem;
+    color: var(--light-color);
     text-transform: lowercase;
 }
 
